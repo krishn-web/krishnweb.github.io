@@ -64,7 +64,7 @@ i
     bottom: 0px;
     opacity: .3;
     z-index: -1;
-    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0% , #16c9f6 100%);
+    background: linear-gradient(to right, #ee087b 0%,#000 55%);
 }
 .navbar::before
 {
@@ -76,7 +76,7 @@ i
     bottom: 0px;
     opacity: .3;
     z-index: -1;
-    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0% , #16c9f6 100%);
+    background: linear-gradient(to right,#f08ace 0%, #912525 0% , #3f022d 100%);
 }
 .nav-item a
 {
@@ -490,7 +490,8 @@ form:hover .form-button
     .clients , .pricing , .footer-div
     {
         height: auto;
-        margin-top: 50px;
+        margin-top: 0px;
+        padding-top: 0% !important;
     }
     .footer-div:nth-child(2)
     {
@@ -499,6 +500,15 @@ form:hover .form-button
     .footer-div
     {
         margin: 30px 0;
+    }
+    #mybtn
+    {
+        bottom: 10px;
+        right: 20px;
+    }
+    .headerings p
+    {
+        font-size: 1rem !important;
     }
 }
 @media(max-width:567px)
